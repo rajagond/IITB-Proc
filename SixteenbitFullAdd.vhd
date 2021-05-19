@@ -1,4 +1,4 @@
---Top Module FourbitFullAdd
+--Top Module SixteenbitFullAdd
 library work;
 use work.all;
 
@@ -23,7 +23,7 @@ architecture SixteenbitFullAdd_arc of SixteenbitFullAdd is
 	end component;
 	
 begin
-   AdderInst1: OnebitFullAdd port map(a=>a(0), b=>b(0), cin=>cin, sum=>sum(0), carry=>c_tmp(1));
+   	AdderInst1: OnebitFullAdd port map(a=>a(0), b=>b(0), cin=>cin, sum=>sum(0), carry=>c_tmp(1));
 	
 	Adder2To15: for i in 1 to 14 generate
 			AdderInst_i: OnebitFullAdd port map(a => a(i), b => b(i), cin => c_tmp(i), sum => sum(i), carry => c_tmp(i+1));

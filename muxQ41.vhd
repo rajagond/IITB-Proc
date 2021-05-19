@@ -1,3 +1,5 @@
+library work;
+use work.all;
 library IEEE;
 use IEEE.std_logic_1164.all;
 
@@ -9,9 +11,9 @@ entity muxQ41 is
         d2      : in    std_logic_vector(15 downto 0);
         d3      : in    std_logic_vector(15 downto 0);
         y       : out   std_logic_vector(15 downto 0));
-end muxQ41;
+end entity;
 
-architecture arch1 of muxQ41 is
+architecture muxQ41_arc of muxQ41 is
 
 begin
   -- Your VHDL code defining the model goes here
@@ -20,4 +22,4 @@ begin
                      d1 when "01",
                      d2 when "10",
                      d3 when "11";
-end arch1;
+end architecture;

@@ -7,11 +7,11 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity alu is
-	port(S1, S2: in std_logic_vector(15 downto 0);
+	port(ALU_A, ALU_B: in std_logic_vector(15 downto 0);
 		 alu_control: in std_logic_vector(1 downto 0);
 		 carry_flag_c, zero_flag_z, x: out std_logic;
-		 alu_result: out std_logic_vector(15 downto 0));
-end entity alu;
+		 ALU_C: out std_logic_vector(15 downto 0));
+end entity;
 
 architecture Behavioral of alu is 
     component SixteenbitFullAdd is
@@ -37,11 +37,11 @@ architecture Behavioral of alu is
 begin
     AdderInst: SixteenbitFullAdd
         port map (
-            a => S1, b => S2, cin => '0', sum => add_res, carry => add_res_carry); 
-    nand_res <= S1 nand S2;
+            a => ALU_A, b => ALU_B, cin => '0', sum => add_res, carry => add_res_carry); 
+    nand_res <= ALU_A nand ALU_B;
     nand_res_carry <= '0';
 
-    xor_res <= S1 xor S2;
+    xor_res <= ALU_A xor ALU_B;
     xor_res_carry <= '0';
 
     MuxInst: muxQ41
@@ -57,6 +57,6 @@ begin
     zero_flag <= '1' when res=x"0000" else '0';
     --doubt
     x <= not(res(3) and (not res(2)) and (not res(1)) and (not res(0)));
-    alu_result <= res;
+    C <= res;
 
-end Behavioral;
+end architecture;

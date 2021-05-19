@@ -5,18 +5,18 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity memory is
+entity memory_asyncread is
     Port ( clk_in : in std_logic;
            write_enable_in : in std_logic;
-           address_in : in std_logic_vector(15 downto 0);
-           data_in : in std_logic_vector(15 downto 0);
-           data_out : out std_logic_vector(15 downto 0));
+           mem_address_in : in std_logic_vector(15 downto 0);
+           mem_data_in : in std_logic_vector(15 downto 0);
+           mem_data_out : out std_logic_vector(15 downto 0));
 end entity;
 --entity memory_unit is 
 --	port (address, Mem_datain: in std_logic_vector(15 downto 0); clk, write_signal: in std_logic; Mem_dataout: out std_logic_vector(15 downto 0));
 --end entity;
 
-architecture memory_arc of memory is
+architecture memory_asyncread_arc of memory_asyncread is
 
 	type register_array is array(65535 downto 0) of std_logic_vector(15 downto 0);   -- defining a new type
 
@@ -45,11 +45,11 @@ begin
     begin
         if rising_edge(clk_in) then
             if(write_enable_in = '1') then
-                memory_ram(to_integer(unsigned(address_in(15 downto 0)))) <= data_in; -- 2^8 = 256
-            else
-                data_out <= memory_ram(to_integer(unsigned(address_in(15 downto 0))));
+                memory_ram(to_integer(unsigned(mem_address_in(15 downto 0)))) <= mem_data_in; --  
             end if;
         end if;
      end process;
 
-end memory_arc;
+	mem_data_out <= memory_ram(to_integer(unsigned(mem_address_in(15 downto 0))));
+
+end architecture;
