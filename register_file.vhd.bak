@@ -27,7 +27,7 @@ begin
     begin
         if rising_edge(clk_in) then -- Data written out or to registers
             if write_enable_in ='1' then
-                reg_file(to_integer(unsigned(RF_A3))) <= RF_D3;
+                reg_file(to_integer(unsigned(addr_write_in))) <= RF_D3;
             end if;
         end if;
     end process;

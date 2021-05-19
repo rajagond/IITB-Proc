@@ -5,12 +5,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity main_unit is
+entity IITB_Proc is
 	port (clk, rst: in std_logic;
           output_main: out std_logic_vector(15 downto 0));
 end entity;
 
-architecture main_unit_arc of main_unit is
+architecture main_unit_arc of IITB_Proc is
     component alu is
         port(ALU_A, ALU_B: in std_logic_vector(15 downto 0);
              alu_control: in std_logic_vector(1 downto 0);
