@@ -6,8 +6,8 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity IITB_Proc is
-	port (clk, rst: in std_logic;
-          output_main: out std_logic_vector(15 downto 0));
+	port (clk, rst: in std_logic );
+        --  output_main: out std_logic_vector(15 downto 0));
 end entity;
 
 architecture main_unit_arc of IITB_Proc is
@@ -28,7 +28,7 @@ architecture main_unit_arc of IITB_Proc is
 
     component register_file is
         Port ( clk_in : in STD_LOGIC;
-              -- enable_in : in STD_LOGIC;
+               rst : in STD_LOGIC;
                write_enable_in : in STD_LOGIC;
                RF_D1 : out STD_LOGIC_VECTOR (15 downto 0); -- read_data1_out
                RF_D2 : out STD_LOGIC_VECTOR (15 downto 0); -- read_data2_out
@@ -39,7 +39,7 @@ architecture main_unit_arc of IITB_Proc is
     end component;
     
     type state_type is (S0, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26, S27);
-	signal state: state_type;
+	 signal state: state_type;
     signal IP, IR: std_logic_vector(15 downto 0); -- 16 bit Instruction Pointer and Instruction Register
     signal tmp1, tmp2, tmp3, tmp4, tmp5 : std_logic_vector(15 downto 0);
     signal rf_a1, rf_a2, rf_a3 : std_logic_vector(2 downto 0);
@@ -55,7 +55,7 @@ begin
     );
 
     RegInst : register_file port map (
-        clk_in => clk, write_enable_in => rf_w, RF_D1 => rf_d1, RF_D2 => rf_d2, RF_D3 => rf_d3, RF_A1 => rf_a1, RF_A2 => rf_a2, RF_A3 => rf_a3);
+        clk_in => clk, rst => rst, write_enable_in => rf_w, RF_D1 => rf_d1, RF_D2 => rf_d2, RF_D3 => rf_d3, RF_A1 => rf_a1, RF_A2 => rf_a2, RF_A3 => rf_a3);
 
     process(clk, state)
 
@@ -415,14 +415,16 @@ begin
         tmp5 <= tmp5_var;
         --IR <= IR_var;
         carry_flag_tc <= tc_var; zero_flag_tz <= tz_var;
-
+		  -- 
         if(rising_edge(clk)) then
             if (rst = '1') then
                 IP <= x"0000";
                 state <= S0;
             else
                 state <= next_state;
+					-- output_main <= x"0000";
                 IP <= next_IP;
+					 
             end if;
         end if;
     end process;

@@ -8,7 +8,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity register_file is
     Port ( clk_in : in STD_LOGIC;
-          -- enable_in : in STD_LOGIC;
+           rst : in STD_LOGIC;
            write_enable_in : in STD_LOGIC;
            RF_D1 : out STD_LOGIC_VECTOR (15 downto 0); -- read_data1_out
            RF_D2 : out STD_LOGIC_VECTOR (15 downto 0); -- read_data2_out
@@ -26,7 +26,9 @@ begin
     process(clk_in)
     begin
         if rising_edge(clk_in) then -- Data written out or to registers
-            if write_enable_in ='1' then
+            if rst = '1' then
+                reg_file  <= (others => x"0000");
+            elsif write_enable_in ='1' then
                 reg_file(to_integer(unsigned(RF_A3))) <= RF_D3;
             end if;
         end if;
