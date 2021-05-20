@@ -1,0 +1,208 @@
+# do IITB_Proc_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/raja/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:26 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 09:14:26 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:26 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 09:14:26 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/TwoByOneMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:26 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/TwoByOneMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TwoByOneMux
+# -- Compiling architecture TwoByOneMux_arc of TwoByOneMux
+# End time: 09:14:26 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/FourByOneMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:26 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/FourByOneMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FourByOneMux
+# -- Compiling architecture FourByOneMux_arc of FourByOneMux
+# End time: 09:14:26 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/SixteenbitFullAdd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:26 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/SixteenbitFullAdd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SixteenbitFullAdd
+# -- Compiling architecture SixteenbitFullAdd_arc of SixteenbitFullAdd
+# End time: 09:14:26 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/register_file.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:26 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_file
+# -- Compiling architecture Behavioral of register_file
+# End time: 09:14:27 on May 20,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/OnebitHalfAdd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:27 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/OnebitHalfAdd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnebitHalfAdd
+# -- Compiling architecture OnebitHalfAdd_arc of OnebitHalfAdd
+# End time: 09:14:27 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/OnebitFullAdd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:27 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/OnebitFullAdd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnebitFullAdd
+# -- Compiling architecture OnebitFullAdd_arc of OnebitFullAdd
+# End time: 09:14:27 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/muxQ41.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:27 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/muxQ41.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity muxQ41
+# -- Compiling architecture muxQ41_arc of muxQ41
+# End time: 09:14:27 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/memory_asyncread.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:27 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/memory_asyncread.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory_asyncread
+# -- Compiling architecture memory_asyncread_arc of memory_asyncread
+# End time: 09:14:27 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/IITB_Proc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:27 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/IITB_Proc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IITB_Proc
+# -- Compiling architecture main_unit_arc of IITB_Proc
+# End time: 09:14:27 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:27 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 09:14:27 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/raja/Desktop/IITB-Proc/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:27 on May 20,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB-Proc/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 09:14:27 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 09:14:27 on May 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading ieee.numeric_std(body)
+# Loading work.iitb_proc(main_unit_arc)
+# Loading work.memory_asyncread(memory_asyncread_arc)
+# Loading work.alu(behavioral)
+# Loading work.sixteenbitfulladd(sixteenbitfulladd_arc)
+# Loading work.onebitfulladd(onebitfulladd_arc)
+# Loading work.onebithalfadd(onebithalfadd_arc)
+# Loading work.twobyonemux(twobyonemux_arc)
+# Loading work.muxq41(muxq41_arc)
+# Loading work.fourbyonemux(fourbyonemux_arc)
+# Loading work.register_file(behavioral)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/dut_instance/add_instance/output_main(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/MemInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 35 ns  Iteration: 2  Instance: /testbench/dut_instance/add_instance/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 35 ns  Iteration: 2  Instance: /testbench/dut_instance/add_instance/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 95 ns  Iteration: 2  Instance: /testbench/dut_instance/add_instance/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 135 ns  Iteration: 2  Instance: /testbench/dut_instance/add_instance/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 255 ns  Iteration: 2  Instance: /testbench/dut_instance/add_instance/RegInst
+# ** Note: SUCCESS, all tests passed.
+#    Time: 2010 ns  Iteration: 0  Instance: /testbench
+# 
+# stdin: <EOF>

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for IITB_Proc
-Wed May 19 22:30:22 2021
+Thu May 20 09:14:08 2021
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -52,7 +52,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed May 19 22:30:22 2021       ;
+; Analysis & Synthesis Status     ; Successful - Thu May 20 09:14:08 2021       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; IITB_Proc                                   ;
 ; Top-level Entity Name           ; IITB_Proc                                   ;
@@ -180,6 +180,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+-----------------+----------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                       ; Library ;
 +----------------------------------+-----------------+-----------------+----------------------------------------------------+---------+
+; Testbench.vhdl                   ; yes             ; User VHDL File  ; /home/raja/Desktop/IITB-Proc/Testbench.vhdl        ;         ;
+; DUT.vhdl                         ; yes             ; User VHDL File  ; /home/raja/Desktop/IITB-Proc/DUT.vhdl              ;         ;
 ; TwoByOneMux.vhd                  ; yes             ; User VHDL File  ; /home/raja/Desktop/IITB-Proc/TwoByOneMux.vhd       ;         ;
 ; FourByOneMux.vhd                 ; yes             ; User VHDL File  ; /home/raja/Desktop/IITB-Proc/FourByOneMux.vhd      ;         ;
 ; SixteenbitFullAdd.vhd            ; yes             ; User VHDL File  ; /home/raja/Desktop/IITB-Proc/SixteenbitFullAdd.vhd ;         ;
@@ -425,10 +427,16 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Wed May 19 22:30:13 2021
+    Info: Processing started: Thu May 20 09:13:58 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off IITB_Proc -c IITB_Proc
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file Testbench.vhdl
+    Info (12022): Found design unit 1: Testbench-Behave File: /home/raja/Desktop/IITB-Proc/Testbench.vhdl Line: 9
+    Info (12023): Found entity 1: Testbench File: /home/raja/Desktop/IITB-Proc/Testbench.vhdl Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file DUT.vhdl
+    Info (12022): Found design unit 1: DUT-DutWrap File: /home/raja/Desktop/IITB-Proc/DUT.vhdl Line: 12
+    Info (12023): Found entity 1: DUT File: /home/raja/Desktop/IITB-Proc/DUT.vhdl Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file TwoByOneMux.vhd
     Info (12022): Found design unit 1: TwoByOneMux-TwoByOneMux_arc File: /home/raja/Desktop/IITB-Proc/TwoByOneMux.vhd Line: 14
     Info (12023): Found entity 1: TwoByOneMux File: /home/raja/Desktop/IITB-Proc/TwoByOneMux.vhd Line: 8
@@ -731,9 +739,9 @@ Info (21057): Implemented 18 device resources after synthesis - the final resour
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 16 output pins
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 144 warnings
-    Info: Peak virtual memory: 486 megabytes
-    Info: Processing ended: Wed May 19 22:30:22 2021
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 485 megabytes
+    Info: Processing ended: Thu May 20 09:14:08 2021
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:25
 
 
