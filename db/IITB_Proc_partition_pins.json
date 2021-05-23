@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PC_counter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_counter[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

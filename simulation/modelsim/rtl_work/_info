@@ -1,0 +1,388 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/raja/Desktop/IITB_Proc/simulation/modelsim
+Ealu
+Z1 w1621599870
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 6
+R0
+Z5 8/home/raja/Desktop/IITB_Proc/alu.vhd
+Z6 F/home/raja/Desktop/IITB_Proc/alu.vhd
+l0
+L9 1
+VL;<<ZoOf5Y@FhYZG^[djf1
+!s100 @7JLJ5LF90B0jU]lfaK]40
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1621764511
+!i10b 1
+Z9 !s108 1621764511.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/alu.vhd|
+Z11 !s107 /home/raja/Desktop/IITB_Proc/alu.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 L;<<ZoOf5Y@FhYZG^[djf1
+!i122 6
+l37
+L16 74
+VXdCncEH:FiHUf@zTG1<>X3
+!s100 84`ADmKInPA;?4d6k@Ub:2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eeightbitfulladd
+Z14 w1621592153
+R3
+R4
+!i122 3
+R0
+Z15 8/home/raja/Desktop/IITB_Proc/EightbitFullAdd.vhd
+Z16 F/home/raja/Desktop/IITB_Proc/EightbitFullAdd.vhd
+l0
+L8 1
+Vg@`k01?2kl3XRbYla9G=I0
+!s100 m>D?C5[A=_EVLPAJj9hcc3
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/EightbitFullAdd.vhd|
+Z18 !s107 /home/raja/Desktop/IITB_Proc/EightbitFullAdd.vhd|
+!i113 1
+R12
+R13
+Aeightbitfulladd_arc
+R3
+R4
+DEx4 work 15 eightbitfulladd 0 22 g@`k01?2kl3XRbYla9G=I0
+!i122 3
+l25
+L16 20
+Vj1?o_:jF_mJnkgo[7:afe0
+!s100 0P:IGAebHVl3?MM46o<kL1
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eiitb_proc
+Z19 w1621741404
+R2
+R3
+R4
+!i122 8
+R0
+Z20 8/home/raja/Desktop/IITB_Proc/IITB_Proc.vhd
+Z21 F/home/raja/Desktop/IITB_Proc/IITB_Proc.vhd
+l0
+L8 1
+VkO^gF39=_@J>J5m0_d9^h1
+!s100 iAeZQgFGa7VPiVTLPLPE?3
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/IITB_Proc.vhd|
+Z23 !s107 /home/raja/Desktop/IITB_Proc/IITB_Proc.vhd|
+!i113 1
+R12
+R13
+Amain_unit_arc
+R2
+R3
+R4
+DEx4 work 9 iitb_proc 0 22 kO^gF39=_@J>J5m0_d9^h1
+!i122 8
+l49
+L13 424
+VMhB:n@2nnj92eoT1RBh_c0
+!s100 ji47g^l<@YBZe]_aWaifT0
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Ememory_asyncread
+Z24 w1621764491
+R2
+R3
+R4
+!i122 0
+R0
+Z25 8/home/raja/Desktop/IITB_Proc/memory_asyncread.vhd
+Z26 F/home/raja/Desktop/IITB_Proc/memory_asyncread.vhd
+l0
+L5 1
+V=e1VVOIDgDZdoA=j<7OPl1
+!s100 do0WX>LN:]oGW^R8=?f2V1
+R7
+31
+Z27 !s110 1621764510
+!i10b 1
+Z28 !s108 1621764510.000000
+Z29 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/memory_asyncread.vhd|
+Z30 !s107 /home/raja/Desktop/IITB_Proc/memory_asyncread.vhd|
+!i113 1
+R12
+R13
+Amemory_asyncread_arc
+R2
+R3
+R4
+DEx4 work 16 memory_asyncread 0 22 =e1VVOIDgDZdoA=j<7OPl1
+!i122 0
+l20
+L13 20
+VMJaJ<E]`XO0B7bbmOC9]=2
+!s100 8jViUh0?X38zdDB;_S=Je0
+R7
+31
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Emuxq41
+Z31 w1621599833
+R3
+R4
+!i122 7
+R0
+Z32 8/home/raja/Desktop/IITB_Proc/muxQ41.vhd
+Z33 F/home/raja/Desktop/IITB_Proc/muxQ41.vhd
+l0
+L6 1
+Vio5XIHDCB=7Z=8hdcWh=V2
+!s100 Q;3I=YXoA36LefVaAT_]B0
+R7
+31
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/muxQ41.vhd|
+Z35 !s107 /home/raja/Desktop/IITB_Proc/muxQ41.vhd|
+!i113 1
+R12
+R13
+Amuxq41_arc
+R3
+R4
+DEx4 work 6 muxq41 0 22 io5XIHDCB=7Z=8hdcWh=V2
+!i122 7
+l18
+L16 11
+VOMGAATHVda8_A1JN@j2MH2
+!s100 LClfP_FkGP04ff>Jo]18W2
+R7
+31
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
+Eonebitfulladd
+Z36 w1621590739
+R3
+R4
+!i122 2
+R0
+Z37 8/home/raja/Desktop/IITB_Proc/OnebitFullAdd.vhd
+Z38 F/home/raja/Desktop/IITB_Proc/OnebitFullAdd.vhd
+l0
+L8 1
+VWZ_3n5]J2oo_X=@V^g=9D3
+!s100 b2zHXhI2_M>9N6iD6_nSW2
+R7
+31
+R8
+!i10b 1
+R28
+Z39 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/OnebitFullAdd.vhd|
+Z40 !s107 /home/raja/Desktop/IITB_Proc/OnebitFullAdd.vhd|
+!i113 1
+R12
+R13
+Aonebitfulladd_arc
+R3
+R4
+DEx4 work 13 onebitfulladd 0 22 WZ_3n5]J2oo_X=@V^g=9D3
+!i122 2
+l15
+L14 5
+VlD?kV6@eXPHDMM8cJCBf62
+!s100 WD3lYV`jCbKT>DezL8fba3
+R7
+31
+R8
+!i10b 1
+R28
+R39
+R40
+!i113 1
+R12
+R13
+Eregister_file
+Z41 w1621599776
+R2
+R3
+R4
+!i122 4
+R0
+Z42 8/home/raja/Desktop/IITB_Proc/register_file.vhd
+Z43 F/home/raja/Desktop/IITB_Proc/register_file.vhd
+l0
+L9 1
+Vf`d_aK[WRVK8S`gQb[aP32
+!s100 YkNEL]k6SS=;OWIQYMTO50
+R7
+31
+R8
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/register_file.vhd|
+Z45 !s107 /home/raja/Desktop/IITB_Proc/register_file.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 f`d_aK[WRVK8S`gQb[aP32
+!i122 4
+l24
+L21 26
+Vz>6gKSELl<4_UzkYTD``z2
+!s100 NLONOzdzhIAY_TdGSWQF`3
+R7
+31
+R8
+!i10b 1
+R9
+R44
+R45
+!i113 1
+R12
+R13
+Esixteenbitfulladd
+Z46 w1621599663
+R3
+R4
+!i122 5
+R0
+Z47 8/home/raja/Desktop/IITB_Proc/SixteenbitFullAdd.vhd
+Z48 F/home/raja/Desktop/IITB_Proc/SixteenbitFullAdd.vhd
+l0
+L8 1
+VzM2jNFdb7;zzY@<RCdj8R0
+!s100 a[4G3UVLag7JVzgG3WQ@Z0
+R7
+31
+R8
+!i10b 1
+R9
+Z49 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/SixteenbitFullAdd.vhd|
+Z50 !s107 /home/raja/Desktop/IITB_Proc/SixteenbitFullAdd.vhd|
+!i113 1
+R12
+R13
+Asixteenbitfulladd_arc
+R3
+R4
+DEx4 work 17 sixteenbitfulladd 0 22 zM2jNFdb7;zzY@<RCdj8R0
+!i122 5
+l28
+L16 33
+VN?JhU8:K<=UaT8lV34nb?2
+!s100 Y5cQd_Z03aa]eb72hLV=e0
+R7
+31
+R8
+!i10b 1
+R9
+R49
+R50
+!i113 1
+R12
+R13
+Etestbench
+Z51 w1621748531
+R3
+R4
+!i122 9
+R0
+Z52 8/home/raja/Desktop/IITB_Proc/testbench.vhd
+Z53 F/home/raja/Desktop/IITB_Proc/testbench.vhd
+l0
+L4 1
+V<aEF3i81EdX>b4MzgHhjl1
+!s100 ?;Fi2HEi<1II4RT3IjQ^^2
+R7
+31
+R8
+!i10b 1
+R9
+Z54 !s90 -reportprogress|300|-93|-work|work|/home/raja/Desktop/IITB_Proc/testbench.vhd|
+Z55 !s107 /home/raja/Desktop/IITB_Proc/testbench.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R3
+R4
+Z56 DEx4 work 9 testbench 0 22 <aEF3i81EdX>b4MzgHhjl1
+!i122 9
+l20
+Z57 L7 38
+Z58 Vjn]DLbDI=Y<Rko5KQoCR91
+Z59 !s100 lWnkl[5Ygz_TTVVMoAF@h2
+R7
+31
+R8
+!i10b 1
+R9
+R54
+R55
+!i113 1
+R12
+R13

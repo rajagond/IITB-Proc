@@ -6,11 +6,11 @@ use IEEE.std_logic_1164.all;
 entity muxQ41 is
     port(
         s       : in    std_logic_vector(1 downto 0);
-        d0      : in    std_logic_vector(15 downto 0);
-        d1      : in    std_logic_vector(15 downto 0);
-        d2      : in    std_logic_vector(15 downto 0);
-        d3      : in    std_logic_vector(15 downto 0);
-        y       : out   std_logic_vector(15 downto 0));
+        d0      : in    std_logic_vector(16 downto 0);
+        d1      : in    std_logic_vector(16 downto 0);
+        d2      : in    std_logic_vector(16 downto 0);
+        d3      : in    std_logic_vector(16 downto 0);
+        y       : out   std_logic_vector(16 downto 0));
 end entity;
 
 architecture muxQ41_arc of muxQ41 is

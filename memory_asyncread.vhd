@@ -1,6 +1,3 @@
-library work;
-use work.all;
-
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -15,20 +12,17 @@ end entity;
 
 architecture memory_asyncread_arc of memory_asyncread is
 
-	type register_array is array(65535 downto 0) of std_logic_vector(15 downto 0);   -- defining a new type
+	type register_array is array(2047 downto 0) of std_logic_vector(15 downto 0);   -- defining a new type
 
 	signal memory_ram: register_array := (
-	0 => x"3001", 1 => x"60aa", 2 => x"0038", 3 => x"03fa", 4 => x"0079", 5 => x"5f9f", 6 => x"13fb", 7 => x"2038",
-	8 => x"233a", 9 => x"2079", 10 => x"4f9f", 11 => x"c9c2", 12 => x"abcd", 13 => x"8e02", 14 => x"1234", 15 => x"91c0",
-	128 => x"ffff", 129 => x"0002", 130 => x"0000", 131 => x"0000", 132 => x"0001", 133 => x"0000",
-	others => x"0000"
-	);
+       0 => "1000000000000011", 1 => "1100000001000011", 2 => "1100001010000011", 3 => "1001001010000000",
+	    others => x"0000" );
 begin
     process(clk_in)
     begin
         if rising_edge(clk_in) then
             if(write_enable_in = '1') then
-                memory_ram(to_integer(unsigned(mem_address_in))) <= mem_data_in; --  
+                memory_ram(to_integer(unsigned(mem_address_in))) <= mem_data_in; 
             end if;
         end if;
      end process;

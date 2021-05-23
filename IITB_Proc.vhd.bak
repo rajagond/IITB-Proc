@@ -6,8 +6,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity IITB_Proc is
-		port (clk, rst: in std_logic;
-		PC_counter: out std_logic_vector(15 downto 0));
+	port (clk, rst: in std_logic );
 end entity;
 
 architecture main_unit_arc of IITB_Proc is
@@ -430,7 +429,6 @@ begin
                 IP <= next_IP;
 					 
             end if;
-				PC_counter <= IP;
         end if;
     end process;
 end architecture;

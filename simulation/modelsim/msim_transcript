@@ -1,0 +1,192 @@
+# ERROR: No extended dataflow license exists
+# do IITB_Proc_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/raja/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/memory_asyncread.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:30 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/memory_asyncread.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory_asyncread
+# -- Compiling architecture memory_asyncread_arc of memory_asyncread
+# End time: 15:38:30 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:30 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture behavior of testbench
+# End time: 15:38:30 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/OnebitFullAdd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:30 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/OnebitFullAdd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OnebitFullAdd
+# -- Compiling architecture OnebitFullAdd_arc of OnebitFullAdd
+# End time: 15:38:31 on May 23,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/EightbitFullAdd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:31 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/EightbitFullAdd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EightbitFullAdd
+# -- Compiling architecture EightbitFullAdd_arc of EightbitFullAdd
+# End time: 15:38:31 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/register_file.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:31 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_file
+# -- Compiling architecture Behavioral of register_file
+# End time: 15:38:31 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/SixteenbitFullAdd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:31 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/SixteenbitFullAdd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SixteenbitFullAdd
+# -- Compiling architecture SixteenbitFullAdd_arc of SixteenbitFullAdd
+# End time: 15:38:31 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:31 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 15:38:31 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/muxQ41.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:31 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/muxQ41.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity muxQ41
+# -- Compiling architecture muxQ41_arc of muxQ41
+# End time: 15:38:31 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/IITB_Proc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:31 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/IITB_Proc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IITB_Proc
+# -- Compiling architecture main_unit_arc of IITB_Proc
+# End time: 15:38:31 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/raja/Desktop/IITB_Proc/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:31 on May 23,2021
+# vcom -reportprogress 300 -93 -work work /home/raja/Desktop/IITB_Proc/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture behavior of testbench
+# End time: 15:38:31 on May 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:38:31 on May 23,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behavior)
+# Loading ieee.numeric_std(body)
+# Loading work.iitb_proc(main_unit_arc)
+# Loading work.memory_asyncread(memory_asyncread_arc)
+# Loading work.alu(behavioral)
+# Loading work.sixteenbitfulladd(sixteenbitfulladd_arc)
+# Loading work.eightbitfulladd(eightbitfulladd_arc)
+# Loading work.onebitfulladd(onebitfulladd_arc)
+# Loading work.muxq41(muxq41_arc)
+# Loading work.register_file(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/MemInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1015 ns  Iteration: 2  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1015 ns  Iteration: 2  Instance: /testbench/uut/RegInst
+# 
+# stdin: <EOF>
+add wave -position insertpoint sim:/testbench/uut/MemInst/*
+add wave -position insertpoint sim:/testbench/uut/RegInst/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/MemInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1015 ns  Iteration: 2  Instance: /testbench/uut/RegInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1015 ns  Iteration: 2  Instance: /testbench/uut/RegInst
+# Paste insertion failed: 1001: ** UI-Msg: (vish-4014) No objects found matching '1001'.
+# Paste insertion failed: 001: ** UI-Msg: (vish-4014) No objects found matching '001'.
+# Paste insertion failed: 010: ** UI-Msg: (vish-4014) No objects found matching '010'.
+# Paste insertion failed: 000000: ** UI-Msg: (vish-4014) No objects found matching '000000'.
+# End time: 15:41:32 on May 23,2021, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 7
